@@ -4,6 +4,7 @@ const Users = require(`./users/model`)
 const server = express()
 
 server.use(express.json())
+server.use(cors())
 
 //Endpoints:
 // GET requests:
